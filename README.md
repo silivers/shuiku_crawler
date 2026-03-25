@@ -16,14 +16,15 @@
   - 图表支持缩放、数据点标记（最高/最低水位、平均水位等）
 
 ## 项目结构
-.
-├── main.py # 主程序入口
-├── get_csv.py # 数据爬虫模块
-├── data_reader.py # 数据读取模块
-├── chart_generator.py # 图表生成模块
-├── html_generator.py # HTML 看板生成模块
-└── reservoir.csv # 爬取的数据文件（运行时生成）
-└── example.html #生成的可视化网页（运行时生成）
+- | 文件名               | 说明                           |
+  | -------------------- | ------------------------------ |
+  | `main.py`            | 主程序入口                     |
+  | `get_csv.py`         | 数据爬虫模块                   |
+  | `data_reader.py`     | 数据读取模块                   |
+  | `chart_generator.py` | 图表生成模块                   |
+  | `html_generator.py`  | HTML 看板生成模块              |
+  | `reservoir.csv`      | 爬取的数据文件（运行时生成）   |
+  | `example.html`       | 生成的可视化网页（运行时生成） |
 
 ## 技术栈
 
